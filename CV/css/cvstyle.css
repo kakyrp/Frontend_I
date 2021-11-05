@@ -1,8 +1,31 @@
-.main{
-    width: 60%;
-    background-color: lightgrey;
+@import url('https://fonts.googleapis.com/css2?family=Arsenal:ital,wght@0,400;0,700;1,400&display=swap');
+
+h1 {
+    font-size: 5rem;
+    color:#793A89;
+    font-family: 'Arsenal', sans-serif;
 }
-.sidebar{
-    width: 40%;
-    background-color: purple;
+
+h2 {
+    font-size: 3rem;
+    color: #FF7900;
+    font-family: 'Arsenal', sans-serif;
+}
+
+h3 {
+    font-size: 2rem;
+    color: #FF7900;
+    font-family: 'Arsenal', sans-serif;
+}
+
+.titulos_cargos {
+    font-size: 1rem;
+    color: #3F1A48;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.subtitulos {
+    font-size: 1rem;
+    color: #3F1A48;
+    font-family: 'Arsenal', sans-serif;
 }
