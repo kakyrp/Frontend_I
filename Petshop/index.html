@@ -1,69 +1,98 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Petshop</title>
+    <link rel="stylesheet" href="../Petshop/petshopstyle.css">
 </head>
+
 <body>
     <header>
-        <div>
-            <!-- Barra negra -->
-        </div>
-        <div>
+        <section class="primeraseccion">
+            <div>
+                <p>Grandes ofertas en comederos</p>
+            </div>
+            <div>
+                <p>
+                    Español
+                    <!-- Tiene que ser un dropdown con Español e Inglés -->
+                </p>
+                <p>
+                    COL
+                    <!-- Tiene que ser un dropdown con COL y ARG -->
+                </p>
+            </div>
+        </section>
+        <div class="barraNavegacion">
             <!-- Barra amarilla / menú -->
-            <img src="" alt="">
-            <ul>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-            </ul>
+            <h2 class="front_logo">Front</h2><h2 class="catdog">Cat&Dog</h2>
+            <nav>
+                <ul type="none">
+                    <li>Categorías</li>
+                    <li>Pets</li>
+                    <li>Nosotros</li>
+                    <li>Contáctanos</li>
+                </ul>
+            </nav>
         </div>
     </header>
     <main>
         <section>
-            <!-- heroe -->
+            <!-- Imagen (heroe) -->
             <div>
-                <img>
-                <h2></h2>
+                <img class="heroe" src="../Petshop/img/bowl-petshop.png" alt="bowl plateado con comida de perro">
+                <h2>Es un placer tenerte aquí</h2>
                 <p></p>
                 <button></button>
             </div>
         </section>
         <section>
             <!--Productos destacados-->
-            <ul class="horizontallist">
+            <ul type="none" class="horizontallist">
                 <li>Comederos</li>
                 <li>Accesorios</li>
                 <li>Comida</li>
             </ul>
+            <ul type="none" class="horizontallist">
+                <li><img src="./img/churrasquito.png" alt="Foto de snacks para perro en forma de churrasquito">Juguete
+                    Churrasquito<p>$150</p>
+                </li>
+                <li><img src="./img/comedero.png" alt="comedero plateado con comida para perro">Comedero para perro<p>
+                        $250</p>
+                </li>
+                <li><img src="./img/Huesito.png"
+                        alt="Juguetes para perro en forma de huesito, colores verde, blanco, naranja y amarillo">Juguete
+                    Huesito<p>$650</p>
+                </li>
+            </ul>
         </section>
         <section>
-            <!-- contáctanos -->
-            <h2></h2>
-            <textbox></textbox>
-            <textbox></textbox>
-            <textbox></textbox>
-            <button></button>
-            <button></button>
+            <h2>Contáctanos</h2>
+            <textbox>Nombre y apellido</textbox>
+            <textbox>Ingresa tu correo electrónico</textbox>
+            <textbox>Teléfono</textbox>
+            <button>Resetear</button>
+            <button>Enviar</button>
         </section>
     </main>
     <footer>
         <div>
-            <span></span>
-            <textbox></textbox>
-            <button></button>
+            <span>Suscríbete para más novedades</span>
+            <textbox>Ingresa tu correo electrónico</textbox>
+            <button>Suscribirme</button>
         </div>
         <div>
             <ul>
-                <li>Localidad</li>
-                <li>Teléfono</li>
-                <li>Correo electrónico</li>
+                <li>Localidad<p>Calle - provincia</p></li>
+                <li>Teléfono<p>Número de Teléfono</p></li>
+                <li>Correo electrónico<p>Dirección de correo</p></li>
             </ul>
         </div>
         <!-- <div>Logo petshop</div> -->
+        <h2 class="front_logo">Front</h2><h2 class="catdog">Cat&Dog</h2>
         <div>
             <p>Todos los derechos reservados Frontend</p>
         </div>

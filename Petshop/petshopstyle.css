@@ -1,0 +1,25 @@
+.heroe {
+    background-size: cover;
+}
+
+.horizontallist {
+  /* aqui va el formato para la lista horizontal */
+}
+
+.primeraseccion {
+    background-color: black;
+    background-size: cover;
+    color: white;
+    font-size: 10px;
+}
+.barraNavegacion {
+    background-color: #f0a83e;
+    color: white;
+    background-size: cover;
+}
+.front_logo {
+    color: black;
+}
+.catdog {
+    color: white;
+}
