@@ -1,25 +1,40 @@
 .heroe {
     background-size: cover;
+    width: 100%;
 }
 
-.horizontallist {
+.horizontal-list {
   /* aqui va el formato para la lista horizontal */
 }
 
-.primeraseccion {
-    background-color: black;
+.primera-seccion {
     background-size: cover;
     color: white;
-    font-size: 10px;
+    font-size: 1rem;
 }
-.barraNavegacion {
+.barra-navegacion {
     background-color: #f0a83e;
     color: white;
     background-size: cover;
 }
-.front_logo {
-    color: black;
+
+.bg-negro{
+    background-color: #000;
 }
-.catdog {
-    color: white;
+
+.texto-blanco {
+    color: #fff;
+}
+
+.texto-negro{
+    color: #000;
+}
+
+.div-flotante {
+    width: 40%;
+    right: 0;
+    top: 10rem;
+    position: absolute;
+    text-align: right;
+    padding: 0 15rem 0 0;
 }
