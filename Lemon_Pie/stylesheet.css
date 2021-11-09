@@ -1,0 +1,22 @@
+.heroe {
+    background-image: url('./img/lemon-pie-sin-horno.jpg');
+    min-height: 720px;
+    background-size: cover;
+    background-position: center;
+}
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.img-fluida {
+    width: 100%;
+}
+
+hr {
+    border-top: 1rem solid turquoise;
+}
+
+footer {
+    text-align: center;
+}
