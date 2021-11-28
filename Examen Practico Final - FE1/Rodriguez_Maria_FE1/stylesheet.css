@@ -1,0 +1,241 @@
+body {
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header-menu {
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row nowrap;
+    padding: 30px 0px;
+    font-size: 13px;
+}
+
+.navigation {
+    color: #242E52;
+    justify-content: space-between;
+    display: flex;
+    flex-grow: 0.2;
+}
+
+.container {
+    margin: auto;
+    max-width: 1440px;
+}
+
+.flex {
+    display: flex;
+}
+
+@media (max-width: 375px) {
+    .container {
+        margin: 0;
+        max-width: 375px;
+    }
+}
+
+.get_started_button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    color: #FFFFFF;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    position: static;
+    width: 134px;
+    height: 44px;
+    left: 1140.54px;
+    top: 65px;
+    background: #F3603B;
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+    border: none;
+}
+
+.get_started_button_light_shadow {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    color: #FFFFFF;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    position: static;
+    width: 134px;
+    height: 44px;
+    left: 1140.54px;
+    top: 65px;
+    background: #F3603B;
+    box-shadow: 0px 4px 8px rgba(242, 97, 59, 0.5);
+    border-radius: 50px;
+    border: none;
+}
+
+.list_number {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5px 2px;
+    position: static;
+    width: 69px;
+    height: 43px;
+    right: 484px;
+    top: 0px;
+    background: #F3603B;
+    border-radius: 30px; 
+    font-style: normal;
+    font-size: 16px;
+    line-height: 23px;
+    align-items: center;
+    color: #FFFFFF;
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+.web-intro {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+
+.image-fluid {
+    width: 100%;
+    height: auto;
+}
+
+h1 {
+    color: #232C50;
+    position: static;
+    width: 500px;
+    left: 0px;
+    top: 0px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 58px;
+    line-height: 66px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.035em;
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+    margin: 28px 0px;
+}
+
+.web-intro-p {
+    position: static;
+    width: 350px;
+    height: 71px;
+    left: 0px;
+    top: 226px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    align-items: center;
+    color: #000000;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 28px 0px;
+}
+
+.container-list {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+}
+
+.first_h2 {
+    position: static;
+    width: 433px;
+    height: 88px;
+    left: 0px;
+    top: 0px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 41px;
+    display: flex;
+    align-items: center;
+    color: #232851;
+}
+
+.first_h2_p {
+    position: static;
+    width: 337px;
+    height: 88px;
+    left: 0px;
+    top: 124px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 36px 0px;
+}
+
+.list-flex {
+    flex-flow: column;
+    justify-content: space-between;
+    justify-content: flex-start;
+}
+
+.title-style {
+    position: static;
+    width: 228px;
+    height: 23px;
+    left: 0px;
+    top: 6.5px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.015em;
+
+    color: #323851;
+}
+
+.list-p {
+    position: static;
+    width: 437px;
+    height: 104px;
+    left: 0px;
+    top: 47.5px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16.2984px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.01em;
+    
+    color: #B3B2B7;
+}
+
+.second_h2 {
+    position: absolute;
+    width: 334.41px;
+    height: 61px;
+    left: 553px;
+    top: 1510px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 39.2143px;
+    line-height: 61px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.01em;
+    color: #242E53;
+}
