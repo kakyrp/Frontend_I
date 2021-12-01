@@ -1,5 +1,5 @@
 body {
-    font-family: 'Be Vietnam Pro', sans-serif;
+    font-family: "Be Vietnam Pro", sans-serif;
     margin: 0;
 }
 
@@ -9,7 +9,7 @@ a {
 
 li a {
     text-decoration: none;
-    color: #FFFFFF;
+    color: #ffffff;
     font-weight: 400;
     font-size: 16px;
 }
@@ -29,7 +29,7 @@ li a {
 }
 
 .navigation {
-    color: #242E52;
+    color: #242e52;
     justify-content: space-between;
     display: flex;
     flex-grow: 0.2;
@@ -40,30 +40,31 @@ li a {
     max-width: 1440px;
 }
 
-@media (max-width: 375px) {
-    .container {
-        margin: 0;
-        max-width: 375px;
-    }
-}
-
 .get_started_button {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     padding: 10px;
-    color: #FFFFFF;
-    font-family: 'Be Vietnam Pro', sans-serif;
+    color: #ffffff;
+    font-family: "Be Vietnam Pro", sans-serif;
     position: static;
     width: 134px;
     height: 44px;
     left: 1140.54px;
     top: 65px;
-    background: #F3603B;
+    background: #f3603b;
     box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
     border-radius: 50px;
     border: none;
+    transition: all 0.3s linear;
+}
+
+.get_started_button:hover {
+    color: #f3603b;
+    background-color: #fff;
+    transition: all 0.3s linear;
+    border: 1px solid #f3603b;
 }
 
 .get_started_button_light_shadow {
@@ -72,14 +73,14 @@ li a {
     justify-content: center;
     align-items: center;
     padding: 10px;
-    color: #FFFFFF;
-    font-family: 'Be Vietnam Pro', sans-serif;
+    color: #ffffff;
+    font-family: "Be Vietnam Pro", sans-serif;
     position: static;
     width: 134px;
     height: 44px;
     left: 1140.54px;
     top: 65px;
-    background: #F3603B;
+    background: #f3603b;
     box-shadow: 0px 4px 8px rgba(242, 97, 59, 0.5);
     border-radius: 50px;
     border: none;
@@ -96,14 +97,14 @@ li a {
     height: 43px;
     right: 484px;
     top: 0px;
-    background: #F3603B;
-    border-radius: 30px; 
+    background: #f3603b;
+    border-radius: 30px;
     font-style: normal;
     font-size: 16px;
     line-height: 23px;
     align-items: center;
-    color: #FFFFFF;
-    font-family: 'Be Vietnam Pro', sans-serif;
+    color: #fff;
+    font-family: "Be Vietnam Pro", sans-serif;
 }
 
 .web-intro {
@@ -113,7 +114,7 @@ li a {
 }
 
 h1 {
-    color: #232C50;
+    color: #232c50;
     position: static;
     width: 500px;
     left: 0px;
@@ -150,8 +151,6 @@ h1 {
 }
 
 .container-list {
-    display: flex;
-    flex-flow: row nowrap;
     justify-content: space-evenly;
 }
 
@@ -209,7 +208,7 @@ h1 {
     font-size: 16px;
     line-height: 26px;
     letter-spacing: -0.01em;
-    color: #B3B2B7;
+    color: #b3b2b7;
 }
 
 .second_h2 {
@@ -220,18 +219,17 @@ h1 {
     display: flex;
     align-items: center;
     letter-spacing: -0.01em;
-    color: #242E53;
+    color: #242e53;
     justify-content: center;
 }
 
 .profiles {
-    background: #FAFAFA;
+    background: #fafafa;
     position: relative;
     padding: 50px;
 }
 
 .profile_title {
-
     width: 390px;
     height: 25px;
     font-style: normal;
@@ -240,18 +238,18 @@ h1 {
     text-align: center;
     line-height: 25px;
     letter-spacing: -0.01em;
-    color: #3F4868;
+    color: #3f4868;
 }
 
 .profiles_text {
-    width:80%;
+    width: 80%;
     margin: auto;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 25px;
     text-align: center;
-    color: #B9B9C1;
+    color: #b9b9c1;
     order: 2;
     flex-grow: 0;
     margin: 21px 0px;
@@ -263,17 +261,24 @@ h1 {
 }
 
 .socialmedia {
-    margin-top: 40%;
+    color: #fff;
+    font-size: 20px;
+    transition: all 0.3s linear;
+}
+
+.socialmedia i:hover {
+    color: #f3603b;
+    transition: all 0.3s linear;
+    cursor: pointer;
 }
 
 .orange_footer {
-    background-color: #F3613C;
+    background-color: #f3603b;
     margin-top: 10rem;
     margin-left: auto;
     margin-right: auto;
     width: 1440;
     justify-content: space-around;
-
 }
 
 .get_started_white {
@@ -282,14 +287,14 @@ h1 {
     justify-content: center;
     align-items: center;
     padding: 10px;
-    color: #F3603B;
-    font-family: 'Be Vietnam Pro', sans-serif;
+    color: #f3603b;
+    font-family: "Be Vietnam Pro", sans-serif;
     position: static;
     width: 134px;
     height: 44px;
     left: 1140.54px;
     top: 65px;
-    background: #FFFFFF;
+    background: #ffffff;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
     border-radius: 50px;
     border: none;
@@ -304,8 +309,7 @@ h1 {
     font-weight: 700;
     font-size: 40px;
     letter-spacing: -0.005em;
-    color: #FFFFFF;
-
+    color: #ffffff;
 }
 
 .footer_items {
@@ -321,9 +325,9 @@ h1 {
     left: 209.91px;
     top: 3.26px;
     padding: 10px;
-    color: #FFFFFF;
-    font-family: 'Be Vietnam Pro', sans-serif;
-    background: #F3603B;
+    color: #ffffff;
+    font-family: "Be Vietnam Pro", sans-serif;
+    background: #f3603b;
     border-radius: 50px;
     border: none;
     font-size: 16px;
@@ -334,13 +338,13 @@ h1 {
     position: static;
     border-radius: 50px;
     border: none;
-    font-family: 'Be Vietnam Pro', sans-serif;
+    font-family: "Be Vietnam Pro", sans-serif;
     width: 201px;
     height: 40px;
     left: 10px;
     top: 2.26px;
     font-weight: 600;
-    color: #A0A0A0;
+    color: #a0a0a0;
     padding-left: 10px;
     margin-bottom: 10px;
     margin-top: 15px;
@@ -385,12 +389,18 @@ h1 {
     flex-wrap: nowrap;
 }
 
-.align-items{
+@media (max-width: 375px) {
+    .row-flex {
+        flex-direction: column;
+    }
+}
+
+.align-items {
     align-items: center;
 }
 
 .bg-black {
-    background-color: #1E1E26;
+    background-color: #1e1e26;
 }
 
 .justify-content-space-around {
@@ -410,11 +420,11 @@ h1 {
 }
 
 .color-white {
-    color: #FFF;
+    color: #fff;
 }
 
 .color-gray {
-color:#8C8C94;
+    color: #8c8c94;
 }
 
 .pt-1 {
@@ -427,4 +437,128 @@ color:#8C8C94;
 
 .ml-1 {
     margin-left: 1rem;
+}
+
+.btn-orange {
+    background-color: #f3603b;
+    color: #fff;
+    transition: all 0.3s linear;
+    border: 1px solid #f3603b;
+    cursor: pointer;
+}
+
+.btn-orange:hover {
+    color: #f3603b;
+    background-color: #fff;
+    transition: all 0.3s linear;
+    border: 1px solid #f3603b;
+}
+
+.btn-white {
+    color: #f3603b;
+    background-color: #fff;
+    transition: all 0.3s linear;
+    border: 1px solid #fff;
+    cursor: pointer;
+}
+
+.btn-white:hover {
+    background-color: #f3603b;
+    color: #fff;
+    transition: all 0.3s linear;
+    border: 1px solid #fff;
+}
+
+.btn-white {
+    color: #f3603b;
+    background-color: #fff;
+    transition: all 0.3s linear;
+    border: 1px solid #fff;
+}
+
+.btn-white:hover {
+    background-color: #f3603b;
+    color: #fff;
+    transition: all 0.3s linear;
+    border: 1px solid #fff;
+}
+
+.color-shift {
+    margin-top: 40%;
+    color: #fff;
+    transition: all 0.3s linear;
+}
+
+.color-shift:hover {
+    color: #f3603b;
+    transition: all 0.3s linear;
+    cursor: pointer;
+}
+
+.color-shift-gray {
+    color: #242E52;
+    transition: all 0.3s linear;
+}
+
+.color-shift-gray:hover {
+    color: #B9B9C1;
+    transition: all 0.3s linear;
+    cursor: pointer;
+}
+
+.no-wrap {
+    flex-wrap: nowrap;
+}
+
+/* Media header menú */
+
+@media(max-width:375px){
+    .header-menu {    
+        justify-content: space-between;
+        flex-flow: row nowrap;
+    }
+    .list-p {
+        width: inherit;
+    }
+    .container {
+        margin: 0;
+    }
+    .web-intro {
+        flex-direction: column-reverse;
+        align-content: center;
+        }
+        .orange-footer {
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+            text-align: center;
+        }
+        .vanish {
+            display: none;
+        }
+        .apparition {
+            display: flex;
+        }
+        h1 {
+            width: inherit;
+            text-align: center;
+        }
+        .first_h2 {
+            width: inherit;
+        }
+        h2 {
+            width: inherit;
+        }
+        .third_h2 {
+            width: inherit;
+        }
+}
+
+@media (min-width: 376px) {
+    .vanish {
+        display: flex;
+    }
+    .apparition {
+        display: none;
+    }
 }

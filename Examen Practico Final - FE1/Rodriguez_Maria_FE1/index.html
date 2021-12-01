@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rodríguez María FE1</title>
+    <title>Manage</title>
     <link rel="stylesheet" href="stylesheet.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,20 +13,23 @@
 </head>
 
 <body>
-    <header class="header-menu container">
+    <header class="header-menu container flex no-wrap">
         <div>
             <img src="./imagenes/logo.svg" alt="Logo Manage">
-        </div>
-        <nav class="navigation">
-            <a href="">Pricing</a>
-            <a href="">Product</a>
-            <a href="">About us</a>
-            <a href="">Careers</a>
-            <a href="">Community</a>
+        </div>        
+        <nav class="navigation vanish">
+            <a class="color-shift-gray" href="">Pricing</a>
+            <a class="color-shift-gray" href="">Product</a>
+            <a class="color-shift-gray" href="">About us</a>
+            <a class="color-shift-gray" href="">Careers</a>
+            <a class="color-shift-gray" href="">Community</a>
         </nav>
-        <button class="get_started_button">
+        <button class="get_started_button btn-orange vanish">
             Get Started
-        </button>
+        </button>      
+        <div class="apparition">
+            <img src="./imagenes/icon-hamburger.svg" alt="Menu">
+        </div>
     </header>
     <main class="container">
         <section class="web-intro">
@@ -38,15 +41,15 @@
                     Manage makes it simple for software teams to plan day-to-day tasks while keeping the large team
                     goals in view
                 </p>
-                <button class="get_started_button_light_shadow">
+                <button class="get_started_button_light_shadow btn-orange">
                     Get Started
                 </button>
             </div>
             <div>
-                <img src="./imagenes/illustration-intro.svg" alt="">
+                <img class="image-fluid" src="./imagenes/illustration-intro.svg" alt="">
             </div>
         </section>
-        <section class="container-list">
+        <section class="container-list flex row-flex">
             <div>
                 <h2 class="first_h2">
                     What's different about Manage?
@@ -58,7 +61,7 @@
             </div>
             <div class="flex column-flex">
                 <div class="flex">
-                    <div class="list_number">
+                    <div class="list_number btn-orange">
                         01
                     </div>
                     <div class="ml-1">
@@ -73,7 +76,7 @@
                     </div>
                 </div>
                 <div class="flex">
-                    <div class="list_number">
+                    <div class="list_number btn-orange">
                         02
                     </div>
                     <div class="ml-1">
@@ -87,7 +90,7 @@
                     </div>
                 </div>
                 <div class="flex">
-                    <div class="list_number">
+                    <div class="list_number btn-orange">
                         03
                     </div>
                     <div class="ml-1">
@@ -103,7 +106,7 @@
             </div>
         </section>
         <section>
-            <h2 class="second_h2">
+            <h2 class="second_h2" style="margin-top: 6rem;">
                 What they've said
             </h2>
             <div class="flex row-flex profiles" style="margin-top: 6rem;">
@@ -126,17 +129,17 @@
                         and focused. I can't stop recommending them to everyone I talk to!”</p>
                 </div>
             </div>
-            <button class="get_started_button_light_shadow" style="margin: auto; margin-top: 2rem;">
+            <button class="get_started_button_light_shadow btn-orange" style="margin: auto; margin-top: 2rem;">
                 Get Started
             </button>
         </section>
     </main>
     <footer class="bg-black color-white">
-        <section class="flex orange_footer row-flex align-items justify-content-space-around pt-1 pb-1">
+        <section class="flex row-flex align-items justify-content-space-around pt-1 pb-1 orange_footer">
             <h2 class="third_h2">
                 Simplify how your team words today.
             </h2>
-            <button class="get_started_white">
+            <button class="get_started_white btn-white">
                 Get Started
             </button>
         </section>
@@ -146,43 +149,43 @@
                     <img src="./imagenes/Logo_white.png" alt="Manage logo in white">
                 </div>
                 <div class="flex row-flex socialmedia">
-                    <img src="./imagenes/icon-facebook.svg" alt="Facebook icon in white">
-                    <img src="./imagenes/icon-youtube.svg" alt="Youtube icon in white">
-                    <img src="./imagenes/icon-twitter.svg" alt="Twitter icon in white">
-                    <img src="./imagenes/icon-pinterest.svg" alt="Pinterest icon in white">
-                    <img src="./imagenes/icon-instagram.svg" alt="Instagram icon in white">
+                    <i class="fab fa-facebook color-shift"></i>
+                    <i class="fab fa-youtube color-shift"></i>
+                    <i class="fab fa-twitter color-shift"></i>
+                    <i class="fab fa-pinterest color-shift"></i>
+                    <i class="fab fa-instagram color-shift"></i>
                 </div>
             </div>
             <div>
                 <ul class="footer_list">
                     <li>
-                        <a href="#">Pricing</a>
+                        <a class="color-shift" href="#">Pricing</a>
                     </li>
                     <li>
-                        <a href="#">Product</a>
+                        <a class="color-shift" href="#">Product</a>
                     </li>
                     <li>
-                        <a href="#">About us</a>
+                        <a class="color-shift" href="#">About us</a>
                     </li>
                 </ul>
             </div>
             <div>
                 <ul class="footer_list">
                     <li>
-                        <a href="#">Careers</a>
+                        <a class="color-shift" href="#">Careers</a>
                     </li>
                     <li>
-                        <a href="#">Community</a>
+                        <a class="color-shift" href="#">Community</a>
                     </li>
                     <li>
-                        <a href="#">Privacy Policy</a>
+                        <a class="color-shift" href="#">Privacy Policy</a>
                     </li>
                 </ul>
             </div>
             <div>
                 <form action="/registro" method="POST">
                     <input class="form" type="email" name="email" placeholder="Update in your inbox...">
-                    <button class="go_button" type="submit">Go</button>
+                    <button class="go_button btn-orange" type="submit">Go</button>
                 </form>
             </div>
         </section>
@@ -190,6 +193,7 @@
             <p>Copyright 2020. All Rights Reserved</p>
         </div>
     </footer>
+    <script src="https://kit.fontawesome.com/01387e5845.js" crossorigin="anonymous"></script>
 </body>
 
 </html>
