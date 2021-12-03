@@ -92,11 +92,6 @@ li a {
     justify-content: center;
     align-items: center;
     padding: 0.5px 2px;
-    position: static;
-    width: 69px;
-    height: 43px;
-    right: 484px;
-    top: 0px;
     background: #f3603b;
     border-radius: 30px;
     font-style: normal;
@@ -115,10 +110,6 @@ li a {
 
 h1 {
     color: #232c50;
-    position: static;
-    width: 500px;
-    left: 0px;
-    top: 0px;
     font-style: normal;
     font-weight: bold;
     font-size: 58px;
@@ -129,15 +120,9 @@ h1 {
     flex: none;
     order: 0;
     flex-grow: 1;
-    margin: 28px 0px;
 }
 
 .web-intro-p {
-    position: static;
-    width: 350px;
-    height: 71px;
-    left: 0px;
-    top: 226px;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -147,7 +132,6 @@ h1 {
     flex: none;
     order: 1;
     flex-grow: 0;
-    margin: 28px 0px;
 }
 
 .container-list {
@@ -155,11 +139,8 @@ h1 {
 }
 
 .first_h2 {
-    position: static;
     width: 433px;
     height: 88px;
-    left: 0px;
-    top: 0px;
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
@@ -171,8 +152,6 @@ h1 {
 
 .first_h2_p {
     width: 337px;
-    height: 88px;
-    left: 0px;
     top: 124px;
     font-style: normal;
     font-weight: 500;
@@ -181,10 +160,6 @@ h1 {
     display: flex;
     align-items: center;
     color: #000000;
-    flex: none;
-    order: 1;
-    flex-grow: 0;
-    margin: 36px 0px;
 }
 
 .title-style {
@@ -195,14 +170,10 @@ h1 {
     line-height: 30px;
     letter-spacing: -0.01em;
     color: #323851;
-    padding-top: 8px;
+    padding-top: 1px;
 }
 
 .list-p {
-    width: 437px;
-    height: 104px;
-    left: 0px;
-    top: 47.5px;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -221,6 +192,7 @@ h1 {
     letter-spacing: -0.01em;
     color: #242e53;
     justify-content: center;
+    margin-top: 5rem;
 }
 
 .profiles {
@@ -274,10 +246,10 @@ h1 {
 
 .orange_footer {
     background-color: #f3603b;
-    margin-top: 10rem;
+    margin-top: 5rem;
     margin-left: auto;
     margin-right: auto;
-    width: 1440;
+    width: 100%;
     justify-content: space-around;
 }
 
@@ -318,6 +290,12 @@ h1 {
     margin: none;
 }
 
+.background-orange-footer {
+    background-image: url(./imagenes/bg-simplify-section-desktop.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
 .go_button {
     justify-content: center;
     width: 63px;
@@ -332,6 +310,17 @@ h1 {
     border: none;
     font-size: 16px;
     margin-left: 5px;
+}
+
+.row-flex-inverse {
+    flex-direction: row;
+    display: flex;
+    justify-content: space-evenly;
+    min-width: 375px;
+}
+
+.push-link {
+    margin-left: 200px;
 }
 
 .form {
@@ -356,6 +345,7 @@ h1 {
 }
 
 /* Clases utilitarias */
+
 .p-1 {
     padding: 0.1rem;
 }
@@ -364,12 +354,20 @@ h1 {
     margin: 2rem;
 }
 
+.mt-1 {
+    margin-top: 1rem;
+}
+
 .m-mx {
     margin: auto;
 }
 
 .flex {
     display: flex;
+}
+
+.justify-content-center {
+    align-items: center;
 }
 
 .image-fluid {
@@ -389,10 +387,9 @@ h1 {
     flex-wrap: nowrap;
 }
 
-@media (max-width: 375px) {
-    .row-flex {
-        flex-direction: column;
-    }
+.box-size {
+    width: 800px;
+    margin-right: 6rem;
 }
 
 .align-items {
@@ -484,7 +481,7 @@ h1 {
 }
 
 .color-shift {
-    margin-top: 40%;
+    /* margin-top: 40%; */
     color: #fff;
     transition: all 0.3s linear;
 }
@@ -496,69 +493,12 @@ h1 {
 }
 
 .color-shift-gray {
-    color: #242E52;
+    color: #242e52;
     transition: all 0.3s linear;
 }
 
 .color-shift-gray:hover {
-    color: #B9B9C1;
+    color: #b9b9c1;
     transition: all 0.3s linear;
     cursor: pointer;
-}
-
-.no-wrap {
-    flex-wrap: nowrap;
-}
-
-/* Media header menú */
-
-@media(max-width:375px){
-    .header-menu {    
-        justify-content: space-between;
-        flex-flow: row nowrap;
-    }
-    .list-p {
-        width: inherit;
-    }
-    .container {
-        margin: 0;
-    }
-    .web-intro {
-        flex-direction: column-reverse;
-        align-content: center;
-        }
-        .orange-footer {
-            flex-direction: column;
-            align-items: center;
-            width: 100%;
-            text-align: center;
-        }
-        .vanish {
-            display: none;
-        }
-        .apparition {
-            display: flex;
-        }
-        h1 {
-            width: inherit;
-            text-align: center;
-        }
-        .first_h2 {
-            width: inherit;
-        }
-        h2 {
-            width: inherit;
-        }
-        .third_h2 {
-            width: inherit;
-        }
-}
-
-@media (min-width: 376px) {
-    .vanish {
-        display: flex;
-    }
-    .apparition {
-        display: none;
-    }
 }
