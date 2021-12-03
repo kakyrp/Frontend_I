@@ -139,6 +139,9 @@
     .revert-xs i {
         font-size: 24px;
     }
+    .text-align-xs {
+        text-align: center;
+    }
 }
 
 @media (min-width: 376px) {
@@ -154,5 +157,8 @@
     }
     .space-sm {
         justify-content: space-evenly;
+    }
+    .mt-3-lg {
+        margin-top: 4rem;
     }
 }
