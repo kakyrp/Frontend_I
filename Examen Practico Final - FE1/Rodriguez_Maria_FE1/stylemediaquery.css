@@ -132,6 +132,13 @@
     #footer-blackbox {
         flex-direction: column;
     }
+    .revert-xs {
+        flex-direction: column-reverse;
+        margin-top: 2rem;
+    }
+    .revert-xs i {
+        font-size: 24px;
+    }
 }
 
 @media (min-width: 376px) {
